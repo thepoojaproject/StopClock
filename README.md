@@ -23,6 +23,7 @@
             text-align: center;
             width: 340px;
             max-width: 90vw;
+            position: relative;
         }
         
         .logo {
@@ -132,6 +133,14 @@
             margin-bottom: 10px;
             text-align: center;
         }
+        
+        .footer {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #d1c9b8;
+            font-size: 14px;
+            color: #888;
+        }
     </style>
 </head>
 <body>
@@ -153,6 +162,8 @@
             <div class="laps-title">LAP TIMES</div>
             <div id="lapTimes"></div>
         </div>
+        
+        <div class="footer">Made in ❤️ By Armeen</div>
     </div>
 
     <script>
